@@ -22,6 +22,10 @@ class Assets {
   /// assets/fonts/Poppins-Regular.ttf
   static const String fontsPoppinsRegular = "assets/fonts/Poppins-Regular.ttf";
 
+  /// Assets for splach
+  /// assets/splach.png
+  static const String splach = "assets/splach.png";
+
   /// Assets for svgArrowBack
   /// assets/svg/arrow_back.svg
   static const String svgArrowBack = "assets/svg/arrow_back.svg";

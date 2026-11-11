@@ -1,0 +1,35 @@
+
+flutter_native_splash:
+  # =========================
+  # GENERAL SPLASH
+  # =========================
+
+  background_image: assets/splach.png
+
+  fullscreen: true
+
+  # =========================
+  # ANDROID
+  # =========================
+
+  android: true
+
+  # =========================
+  # IOS
+  # =========================
+
+  ios: true
+
+  # =========================
+  # WEB
+  # =========================
+
+  web: true
+  web_image_mode: cover
+
+  # =========================
+  # ANDROID 12+
+  # =========================
+
+  android_12:
+    color: "#34A853"
