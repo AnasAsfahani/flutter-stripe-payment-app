@@ -1,18 +1,13 @@
-
 import 'package:flutter/material.dart';
 import 'package:flutter_credit_card/flutter_credit_card.dart';
 
 class CustomCreditCardWidget extends StatefulWidget {
   final GlobalKey<FormState> formKey;
 
-  const CustomCreditCardWidget({
-    super.key,
-    required this.formKey,
-  });
+  const CustomCreditCardWidget({super.key, required this.formKey});
 
   @override
-  State<CustomCreditCardWidget> createState() =>
-      _CustomCreditCardWidgetState();
+  State<CustomCreditCardWidget> createState() => _CustomCreditCardWidgetState();
 }
 
 class _CustomCreditCardWidgetState extends State<CustomCreditCardWidget> {
@@ -47,7 +42,6 @@ class _CustomCreditCardWidgetState extends State<CustomCreditCardWidget> {
           showBackView: isCvvFocused,
           onCreditCardWidgetChange: (brand) {},
         ),
-
 
         CreditCardForm(
           formKey: widget.formKey,

@@ -13,13 +13,11 @@ class ThankYouScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        leading:  CustomBackArrowButton(),
-        backgroundColor: Colors.transparent ,
-        elevation:  0 ,
-
+        leading: CustomBackArrowButton(),
+        backgroundColor: Colors.transparent,
+        elevation: 0,
       ),
-      body:  ThankYouScreenBody(),
-
+      body: ThankYouScreenBody(),
     );
   }
 }

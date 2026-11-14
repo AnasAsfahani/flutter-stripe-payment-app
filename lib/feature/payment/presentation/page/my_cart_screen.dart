@@ -12,16 +12,13 @@ class MyCartScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar:
-      AppBar(
-        backgroundColor: Colors.transparent ,
-          elevation:  0 ,
-          title: Text("My Cart" , style:  Styles.font25BoldBase,) ,
+      appBar: AppBar(
+        backgroundColor: Colors.transparent,
+        elevation: 0,
+        title: Text("My Cart", style: Styles.font25BoldBase),
         centerTitle: true,
-        
       ),
       body: MyCartScreenBody(),
     );
   }
 }
-

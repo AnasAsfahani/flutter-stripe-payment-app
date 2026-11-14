@@ -1,4 +1,7 @@
-import 'package:payment_app/feature/payment/presentation/page/payment_details_screen.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:payment_app/feature/payment/data/repo/paymnet_repo_impl.dart';
+import 'package:payment_app/feature/payment/presentation/cubit/stripe_cubit.dart';
+import 'package:payment_app/feature/payment/presentation/widget/my_cart/paymnet_methods_bottom_sheet.dart';
 import 'package:payment_app/feature/payment/presentation/widget/my_cart/total_price.dart';
 import '../../../../../core/utils/widget/custom_button.dart';
 import '/core/utils/assets.dart';
@@ -35,13 +38,22 @@ class MyCartScreenBody extends StatelessWidget {
           CustomButton(
             title: "Complete Payment",
             onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) {
-                    return PaymentDetailsScreen();
-                  },
-                ),
+              // Navigator.push(
+              //   context,
+              //   MaterialPageRoute(
+              //     builder: (context) {
+              //       return PaymentDetailsScreen();
+              //     },
+              //   ),
+              // );
+              showModalBottomSheet(
+                context: context,
+                builder: (context) {
+                  return BlocProvider(
+                    create: (context) => StripeCubit(PaymentRepoImpl()),
+                    child: PaymentMethodsBottomSheet(),
+                  );
+                },
               );
             },
           ),

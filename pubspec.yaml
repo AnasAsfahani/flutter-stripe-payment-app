@@ -37,6 +37,12 @@ dependencies:
   flutter_svg: ^2.2.3
   flutter_credit_card: ^4.1.0
   flutter_native_splash: ^2.4.7
+  flutter_launcher_icons: ^0.14.4
+  flutter_stripe: ^11.5.0
+  dio: ^5.11.1
+  flutter_bloc: ^9.1.1
+  dartz: ^0.10.1
+  bloc: ^9.2.1
 
 dev_dependencies:
   flutter_test:

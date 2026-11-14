@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 abstract class Styles {
   // قواعد ثابتة بدون fontFamily
   static const TextStyle font8LightBase = TextStyle(

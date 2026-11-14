@@ -22,11 +22,7 @@ class DottedBorder extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: List.generate(
         count,
-            (index) => Container(
-          width: width,
-          height: height,
-          color: color,
-        ),
+        (index) => Container(width: width, height: height, color: color),
       ),
     );
   }

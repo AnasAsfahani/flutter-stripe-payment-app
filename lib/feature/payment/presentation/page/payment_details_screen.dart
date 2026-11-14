@@ -14,15 +14,13 @@ class PaymentDetailsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        leading:  CustomBackArrowButton(),
-        backgroundColor: Colors.transparent ,
-        elevation:  0 ,
-        title: Text("Payment Details" , style:  Styles.font25BoldBase,) ,
+        leading: CustomBackArrowButton(),
+        backgroundColor: Colors.transparent,
+        elevation: 0,
+        title: Text("Payment Details", style: Styles.font25BoldBase),
         centerTitle: true,
-
       ),
-      body:  PaymentDetailsScreenBody(),
-
+      body: PaymentDetailsScreenBody(),
     );
   }
 }

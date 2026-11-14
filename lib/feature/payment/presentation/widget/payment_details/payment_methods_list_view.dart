@@ -7,8 +7,7 @@ class PaymentMethodsListView extends StatefulWidget {
   const PaymentMethodsListView({super.key});
 
   @override
-  State<PaymentMethodsListView> createState() =>
-      _PaymentMethodsListViewState();
+  State<PaymentMethodsListView> createState() => _PaymentMethodsListViewState();
 }
 
 class _PaymentMethodsListViewState extends State<PaymentMethodsListView> {
@@ -16,10 +15,7 @@ class _PaymentMethodsListViewState extends State<PaymentMethodsListView> {
 
   @override
   Widget build(BuildContext context) {
-    final List<String> images = [
-      Assets.svgMasterCard,
-      Assets.svgPayPal,
-    ];
+    final List<String> images = [Assets.svgMasterCard, Assets.svgPayPal];
 
     return SizedBox(
       height: 62,

@@ -28,15 +28,10 @@ class PaymentMethodsCard extends StatelessWidget {
             borderRadius: BorderRadius.circular(15),
             border: Border.all(
               width: isActive ? 1.5 : 1,
-              color: isActive
-                  ? const Color(0xff34A853)
-                  :  Colors.grey,
+              color: isActive ? const Color(0xff34A853) : Colors.grey,
             ),
           ),
-          child: SvgPicture.asset(
-            image,
-            fit: BoxFit.scaleDown,
-          ),
+          child: SvgPicture.asset(image, fit: BoxFit.scaleDown),
         ),
       ),
     );

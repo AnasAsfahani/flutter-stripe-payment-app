@@ -5,11 +5,13 @@ import '../styles.dart';
 class CustomButton extends StatelessWidget {
   final void Function()? onPressed;
   final String title;
+  final bool isLoading;
 
   const CustomButton({
     super.key,
     this.onPressed,
     required this.title,
+    this.isLoading = false,
   });
 
   @override
@@ -20,19 +22,17 @@ class CustomButton extends StatelessWidget {
       child: TextButton(
         style: ButtonStyle(
           shape: WidgetStateProperty.all(
-            RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(15),
-            ),
+            RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
           ),
-          backgroundColor: WidgetStateProperty.all(
-            const Color(0xff34A853),
-          ),
+          backgroundColor: WidgetStateProperty.all(const Color(0xff34A853)),
         ),
         onPressed: onPressed,
-        child: Text(
-          title,
-          style: Styles.font20Regular().copyWith(color: Colors.black),
-        ),
+        child: isLoading
+            ? CircularProgressIndicator(color: Colors.white)
+            : Text(
+                title,
+                style: Styles.font20Regular().copyWith(color: Colors.black),
+              ),
       ),
     );
   }
