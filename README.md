@@ -45,7 +45,7 @@ The following screenshots showcase the application interface and the complete pa
 
 | Splash Screen | Payment Screen |
 |:---:|:---:|
-| <img src="https://github.com/user-attachments/assets/beb9aa09-ca68-4fc8-9185-e6eff801dbf0" width="240" alt="Splash Screen" /> | <img src="https://github.com/user-attachments/assets/61930f53-51da-44d7-8f0b-283d8a966f74" width="240" alt="Payment Screen" /> |
+| <img src="https://github.com/user-attachments/assets/61930f53-51da-44d7-8f0b-283d8a966f74" width="240" alt="Payment Screen" /> | <img src="https://github.com/user-attachments/assets/beb9aa09-ca68-4fc8-9185-e6eff801dbf0" width="240" alt="Splash Screen" /> |
 
 | Custom Card Details | Payment Success |
 |:---:|:---:|
