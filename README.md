@@ -43,7 +43,7 @@ The following screenshots showcase the application interface and the complete pa
 
 ### Application Screens
 
-| Splash Screen | Payment Screen |
+| Splash Screen | Cart Screen |
 |:---:|:---:|
 | <img src="https://github.com/user-attachments/assets/61930f53-51da-44d7-8f0b-283d8a966f74" width="240" alt="Payment Screen" /> | <img src="https://github.com/user-attachments/assets/beb9aa09-ca68-4fc8-9185-e6eff801dbf0" width="240" alt="Splash Screen" /> |
 
@@ -53,7 +53,7 @@ The following screenshots showcase the application interface and the complete pa
 
 ### Stripe Payment Flow
 
-| Stripe Payment Sheet | Saved Payment Methods | Stripe Payment Success |
+| Stripe Payment Sheet | Saved Customer Payment Methods | Stripe Payment Success |
 |:---:|:---:|:---:|
 | <img src="https://github.com/user-attachments/assets/354e9a3d-9eff-4209-b35f-2ad953ed55b9" width="200" alt="Stripe Payment Sheet" /> | <img src="https://github.com/user-attachments/assets/7c31a4fe-ecd6-4615-9431-70ac89f82a1b" width="200" alt="Stripe Saved Cards" /> | <img src="https://github.com/user-attachments/assets/46ec013f-575e-429f-a716-38dedfafd15b" width="200" alt="Stripe Payment Success" /> |
 
